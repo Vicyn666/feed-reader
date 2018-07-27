@@ -6,7 +6,7 @@ $(function() {
             expect(allFeeds.length).not.toBe(0);
         });
 
-        it('has defined and not null names', function () {
+        it('are defined and not null names', function () {
             for (let f = 0; f < allFeeds.length; f++) {
                 expect(allFeeds[f].name).toBeDefined();
                 expect(allFeeds[f].name.length).not.toBe(0);
@@ -20,7 +20,7 @@ $(function() {
          * and that the URL is not empty.
          */
 
-         it('has defined and not null urls', function () {
+         it('are defined and not null urls', function () {
              for (let f = 0; f < allFeeds.length; f++) {
                  expect(allFeeds[f].url).toBeDefined();
                  expect(allFeeds[f].url.length).not.toBe(0);
@@ -33,13 +33,13 @@ $(function() {
 
     describe('The menu', function() {
 
-        it('hidden by default', function () {
+        it('is hidden by default', function () {
                 expect($('body').hasClass('menu-hidden')).toBe(true);
         });
+/*      
 
 
-
-
+*/
     });
 
 
